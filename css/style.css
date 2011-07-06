@@ -12,20 +12,44 @@ h1, h2 {
 
 h1 {
   text-align: center;
-  margin: 50px 0 20px 0;
+  text-transform: capitalize;
+  margin: 50px 0 40px 0;
 }
 
 h2 {
   margin: 20px 0;
 }
 
+img.hr {
+  margin: 20px auto;
+}
+
 img.centered {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#investments {
+  margin-top: 20px;
+}
+
+.investment p {
+  background-image: url('../images/investment.png');
+  margin: 15px 0;
+  padding: 20px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: 4px solid #6D4320;
+}
+
+.investment a {
+  color: #250701;
+  font-weight: bold;
 }
 
 .contact {
-  margin: 40px 0 60px 0;
+  margin: 40px 0 20px 0;
   text-align: center;
 }
 
@@ -38,7 +62,6 @@ img.centered {
 }
 
 #rocks {
-  display: block;
   margin: 20px auto;
 }
 
