@@ -5,12 +5,36 @@ body {
   font-size: 100%;
 }
 
-#logo {
-  margin: 50px 0 20px 0;
-  text-align: center;
+h1, h2 {
   font-family: Calligraffitti, arial, serif;
-  font-size: 4em;
   color: #250701;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+img.centered {
+    display: block;
+    margin: 0 auto;
+}
+
+.contact {
+  margin: 40px 0 60px 0;
+  text-align: center;
+}
+
+.email {
+  margin-top: 20px;
+}
+
+#logo {
+  font-size: 4em;
 }
 
 #rocks {
