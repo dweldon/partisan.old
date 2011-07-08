@@ -1,0 +1,13 @@
+.polaroid {
+  background: #EEE;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 2px solid #CCC;
+  border-right: 2px solid #AAA;
+  border-bottom: 2px solid #444;
+}
+
+#rocks {
+  padding: 15px;
+}
