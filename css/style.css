@@ -48,6 +48,10 @@ img.centered {
   transform: rotate(-5deg);
 }
 
+#about {
+  margin-top: 20px;
+}
+
 #investments {
   margin-top: 20px;
 }
@@ -56,9 +60,13 @@ img.centered {
   background-image: url('../images/investment.png');
   margin: 15px 0;
   padding: 20px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   border: 4px solid #6D4320;
+  -moz-box-shadow: 0 1px 4px #000;
+  -webkit-box-shadow: 0 1px 4px #000;
+  box-shadow: 0 1px 4px #000;
 }
 
 .investment a {
@@ -67,7 +75,7 @@ img.centered {
 }
 
 .contact {
-  margin: 40px 0 20px 0;
+  margin: 20px 0 20px 0;
   text-align: center;
 }
 
@@ -79,25 +87,8 @@ img.centered {
   font-size: 4em;
 }
 
-
-.profile img {
-  display: block;
-  margin: 20px auto 40px auto;
-}
-
 .profile p {
   text-align: justify;
-}
-
-.definition {
-  font-family: 'Special Elite', cursive;
-  font-size: 2em;
-  margin-top: 20px;
-}
-
-.definition li {
-  text-align: left;
-  padding: 0 20px;
 }
 
 #menu ul {
