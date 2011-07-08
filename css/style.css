@@ -30,6 +30,24 @@ img.centered {
   margin-left: auto;
 }
 
+.polaroid {
+  background: #EEE;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  -moz-box-shadow: 1px 1px 3px #222;
+  -webkit-box-shadow: 1px 1px 3px #222;
+  box-shadow: 1px 1px 3px #222;
+}
+
+#rocks {
+  padding: 15px 15px 50px 15px;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
 #investments {
   margin-top: 20px;
 }
@@ -61,9 +79,6 @@ img.centered {
   font-size: 4em;
 }
 
-#rocks {
-  margin: 20px auto;
-}
 
 .profile img {
   display: block;
