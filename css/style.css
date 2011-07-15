@@ -55,6 +55,10 @@ img.centered {
   margin-top: 20px;
 }
 
+.summary {
+  margin-top: 20px;
+}
+
 .investment p {
   background-image: url('../images/investment.png');
   margin: 15px 0;
