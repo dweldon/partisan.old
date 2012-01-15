@@ -6,7 +6,6 @@ body {
 }
 
 h1, h2 {
-  font-family: Calligraffitti, arial, serif;
   color: #250701;
 }
 
@@ -37,14 +36,6 @@ img.centered {
   -moz-box-shadow: 1px 1px 3px #222;
   -webkit-box-shadow: 1px 1px 3px #222;
   box-shadow: 1px 1px 3px #222;
-}
-
-#rocks {
-  padding: 15px 15px 50px 15px;
-  -moz-transform: rotate(-5deg);
-  -webkit-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);
 }
 
 #about {
@@ -96,7 +87,6 @@ img.centered {
 
 #menu ul {
   margin-top: 20px;
-  font-family: Calligraffitti, arial, serif;
   text-align: center;
   list-style: none;
 }
